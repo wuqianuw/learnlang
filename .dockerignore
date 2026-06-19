@@ -1,0 +1,38 @@
+# 版本控制
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# 前端
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# 环境变量（包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose*.yml
+*.md

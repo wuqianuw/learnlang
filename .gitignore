@@ -1,0 +1,46 @@
+# 环境变量（包含 API Key，绝对不能上传）
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 前端
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# SQLite 运行数据与会话记录
+*.db
+*.db-shm
+*.db-wal
+
+# LangGraph 本地运行状态
+.langgraph_api/
+
+# Codex / AI工具缓存
+.codex-pycache/
+.superpowers/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Docker
+learnlang.tar

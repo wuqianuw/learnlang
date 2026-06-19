@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "personal_clothing_agent": "./app/agents/personal_clothing.py:agent"
+    },
+    "env": ".env"
+}
